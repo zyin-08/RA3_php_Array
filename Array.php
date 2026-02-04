@@ -22,14 +22,12 @@
 
     echo "<h1>Ejercicio 2</h1>";
 
-    $persona = array("nombre" => "Sara", "apellido" => "Martínez", "edad" => 23, "ciudad" => "Barcelona");
     foreach ($persona as $key => $value) {
         echo " $key: $value <br>";
     }
 
 
     echo "<h1>Ejercicio 3</h1>";
-
 
     $persona["edad"] = 24;
     $contador = 1;
